@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Botlar</title>
+
+<style>
+
+body{font-family:Arial;margin:0;background:#f4f4f4;}
+
+.navbar{background:black;padding:15px;}
+
+.navbar a{color:white;text-decoration:none;margin:20px;font-size:18px;}
+
+.navbar a:hover{color:orange;}
+
+.baslik{text-align:center;margin-top:40px;font-size:30px;}
+
+.urunler{display:flex;justify-content:center;gap:30px;margin-top:40px;flex-wrap:wrap;}
+
+.urun{
+background:white;
+width:220px;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.urun:hover{transform:scale(1.05);}
+
+.urun img{width:100%;}
+
+.fiyat{color:green;font-size:18px;}
+
+.footer{margin-top:50px;background:black;color:white;text-align:center;padding:20px;}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<a href="index.html">Ana Sayfa</a>
+<a href="spor.html">Spor</a>
+<a href="botlar.html">Botlar</a>
+<a href="klasik.html">Klasik</a>
+</div>
+
+<h1 class="baslik">Bot Modelleri</h1>
+
+<div class="urunler">
+
+<div class="urun">
+<img src="deribot.jpg">
+<h3>Deri Bot</h3>
+<p class="fiyat">1800₺</p>
+</div>
+
+<div class="urun">
+<img src="bot.jpg">
+<h3>Kadın Topuklu Bot</h3>
+<p class="fiyat">1650₺</p>
+</div>
+
+<div class="urun">
+<img src="outdoorbot.jpg">
+<h3>Outdoor Bot</h3>
+<p class="fiyat">1950₺</p>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Ayakkabı Mağazası
+</div>
+
+</body>
+</html>

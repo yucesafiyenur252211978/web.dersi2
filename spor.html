@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Spor Ayakkabılar</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+.navbar{
+background:black;
+padding:15px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin:20px;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:orange;
+}
+
+.baslik{
+text-align:center;
+margin-top:40px;
+font-size:30px;
+}
+
+.urunler{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.urun{
+background:white;
+width:220px;
+padding:15px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,0,0,0.2);
+transition:0.3s;
+}
+
+.urun:hover{
+transform:scale(1.05);
+}
+
+.urun img{
+width:100%;
+}
+
+.fiyat{
+color:green;
+font-size:18px;
+}
+
+.footer{
+margin-top:50px;
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+<a href="index.html">Ana Sayfa</a>
+<a href="spor.html">Spor</a>
+<a href="botlar.html">Botlar</a>
+<a href="klasik.html">Klasik</a>
+</div>
+
+<h1 class="baslik">Spor Ayakkabılar</h1>
+
+<div class="urunler">
+
+<div class="urun">
+<img src="koşu.jpg">
+<h3>Koşu Ayakkabısı</h3>
+<p class="fiyat">1300₺</p>
+</div>
+
+<div class="urun">
+<img src="günlük.jpg">
+<h3>Günlük Spor</h3>
+<p class="fiyat">1100₺</p>
+</div>
+
+<div class="urun">
+<img src="antrenman.jpg">
+<h3>Antrenman Ayakkabısı</h3>
+<p class="fiyat">1450₺</p>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Ayakkabı Mağazası
+</div>
+
+</body>
+</html>
